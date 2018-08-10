@@ -10,7 +10,7 @@ using namespace std;
 typedef pair<double,double> dat_type;
 vector<dat_type> dat;
 
-inline double dist(const dat_type& a1,const dat_type& a2){
+double dist(const dat_type& a1,const dat_type& a2){
 	return sqrt((a1.first-a2.first)*(a1.first-a2.first)+(a1.second-a2.second)*(a1.second-a2.second));
 }
 
