@@ -1,4 +1,5 @@
 .idea
 Java\ out
+*.{exe,in,out}
 *~
 \#*
